@@ -1,0 +1,99 @@
+{
+  "app": {
+    "bundleName": "net.luculent.hm.lysjys",
+    "bundleType": "app",
+    "versionCode": 1000002,
+    "versionName": "1.0.6",
+    "label": "验收管理平台",
+    "deployDomain": "appstore.luculent.net",
+    "icons": {
+      "normal": "https://appstore.luculent.net/Liems/xslt/app/mb/uploadfiles/lysjy_1_0_6/app_icon1.png",
+      "large": "https://appstore.luculent.net/Liems/xslt/app/mb/uploadfiles/lysjy_1_0_6/app_icon2.png"
+    },
+    "minAPIVersion": "5.0.0(12)",
+    "targetAPIVersion": "5.0.0(12)",
+    "modules": [
+      {
+        "name": "entry",
+        "type": "entry",
+        "deviceTypes": [
+          "tablet"
+        ],
+        "packageUrl": "https://appstore.luculent.net/Liems/xslt/app/mb/uploadfiles/lysjy_1_0_6/entry-default-signed.hap",
+        "packageHash": "1569d72d2be94e0fef8c8fc5e5c12c57822c69c757d8cc0e9454ba50d98affa2"
+      },
+      {
+        "name": "business",
+        "type": "shared",
+        "deviceTypes": [
+          "tablet"
+        ],
+        "packageUrl": "https://appstore.luculent.net/Liems/xslt/app/mb/uploadfiles/lysjy_1_0_6/business-default-signed.hsp",
+        "packageHash": "aa56473414acfd7babe58d4b0308c685a52ed0ec20295280120c6de5e6d8a28d"
+      },
+      {
+        "name": "colleague",
+        "type": "shared",
+        "deviceTypes": [
+          "tablet"
+        ],
+        "packageUrl": "https://appstore.luculent.net/Liems/xslt/app/mb/uploadfiles/lysjy_1_0_6/colleague-default-signed.hsp",
+        "packageHash": "15d4fc62c1acb6dfa23b19ea6b3be411b762818c0d43a5a994868367eb43768f"
+      },
+      {
+        "name": "homepage",
+        "type": "shared",
+        "deviceTypes": [
+          "tablet"
+        ],
+        "packageUrl": "https://appstore.luculent.net/Liems/xslt/app/mb/uploadfiles/lysjy_1_0_6/homepage-default-signed.hsp",
+        "packageHash": "8b2ec53f8c68134162c046cde96563da1d5761bb84a33fba8fac46e938ad46ab"
+      },
+      {
+        "name": "login",
+        "type": "shared",
+        "deviceTypes": [
+          "tablet"
+        ],
+        "packageUrl": "https://appstore.luculent.net/Liems/xslt/app/mb/uploadfiles/lysjy_1_0_6/login-default-signed.hsp",
+        "packageHash": "c40910a1b0580b09ce2b835c2b35a8dd19037b78d1c9f2850ad00a4f05970ee1"
+      },
+      {
+        "name": "personalcenter",
+        "type": "shared",
+        "deviceTypes": [
+          "tablet"
+        ],
+        "packageUrl": "https://appstore.luculent.net/Liems/xslt/app/mb/uploadfiles/lysjy_1_0_6/personalcenter-default-signed.hsp",
+        "packageHash": "8a911f676f80f742a6caec17bcab6760b870d2e41802c0b17589dcc33e07a36c"
+      },
+      {
+        "name": "platform",
+        "type": "shared",
+        "deviceTypes": [
+          "tablet"
+        ],
+        "packageUrl": "https://appstore.luculent.net/Liems/xslt/app/mb/uploadfiles/lysjy_1_0_6/platform-default-signed.hsp",
+        "packageHash": "de8faa1d32f274680a7ba0512bee1a56213adb2a1e8d9ad5c012afdd25ba4c02"
+      },
+      {
+        "name": "provider",
+        "type": "shared",
+        "deviceTypes": [
+          "tablet"
+        ],
+        "packageUrl": "https://appstore.luculent.net/Liems/xslt/app/mb/uploadfiles/lysjy_1_0_6/provider-default-signed.hsp",
+        "packageHash": "b7b371d67d4abe59b636a673d249988cad52ac7dfaed77881087c0c3c75478f7"
+      },
+      {
+        "name": "worktable",
+        "type": "shared",
+        "deviceTypes": [
+          "tablet"
+        ],
+        "packageUrl": "https://appstore.luculent.net/Liems/xslt/app/mb/uploadfiles/lysjy_1_0_6/worktable-default-signed.hsp",
+        "packageHash": "0a42f0c9b35633511bb07f6b28cea0dea68e79cf53b37bdf4fd036958fe24cb0"
+      }
+    ]
+  }
+}
